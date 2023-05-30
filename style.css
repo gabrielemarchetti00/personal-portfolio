@@ -1,47 +1,78 @@
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    color: #fbbf24;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.top {
-    display: flex;
-    justify-content: center;
-    background-color: #14b8a6;
+/*header*/
+.header {
     height: 500px;
-    width: 100%; 
-}
-
-.photo-about {
+    background-color: #4b5563;
     display: flex;
     align-items: center;
-    gap: 30px;
+    justify-content: center;
 }
 
 .my-photo {
+    height: 600px;
+}
+
+.aboutme {
+    font-size: 30px;
+}
+
+.big-text {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+/*projects*/
+.projects {
+    height: 600px;
+    background-color: #6b7280
+}
+
+/*footer*/
+.footer {
     height: 400px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 9999px;
+    background-color: #4b5563;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
 }
 
-.about {
-    height: 300px;
-    width: 300px;
-    color: white;
+i {
+    font-size: 50px;
 }
 
-.title {
-    font-size: 40px;
+i:hover {
+    cursor: pointer;
 }
 
-
-.mid {
-    height: 1000px;
-    width: 100%;
+.phone-icon,
+.mail-icon {
+    width: 50px;
 }
 
-.bottom {
-    background-color: black;
-    height: 300px;
-    width: 100%;
+.phone-div,
+.mail-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.contactme {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.address {
+    font-size: 30px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
 }
