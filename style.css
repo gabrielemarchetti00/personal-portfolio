@@ -27,9 +27,32 @@ body {
 }
 
 /*projects*/
+.projects-section {
+    height: 1800px;
+    background-color: #6b7280;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.projects-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
 .projects {
-    height: 600px;
-    background-color: #6b7280
+    display: grid;
+    grid-template: repeat(2, 800px) / repeat(2, 800px);
+    gap: 90px;
+}
+
+.p {
+    border: 1px solid;
+}
+
+.screen {
+    width: 100%;
 }
 
 /*footer*/
@@ -39,7 +62,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 40px;
+    padding: 50px;
 }
 
 i {
