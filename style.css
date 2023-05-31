@@ -6,7 +6,7 @@ body {
 
 /*header*/
 .header {
-    height: 450px;
+    min-height: 450px;
     background-color: #4b5563;
     display: flex;
     align-items: center;
@@ -135,9 +135,12 @@ i:hover {
     gap: 20px;
 }
 
-
 /*media queries*/
 @media (max-width: 600px) {
+    .aboutme {
+        padding: 20px;
+    }
+
     .big-text {
         font-size: 30px;
         font-weight: bolder;
