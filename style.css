@@ -6,7 +6,7 @@ body {
 
 /*header*/
 .header {
-    min-height: 500px;
+    height: 450px;
     background-color: #4b5563;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@ body {
 }
 
 .my-photo {
-    height: 600px;
+    height: 500px;
 }
 
 .aboutme {
@@ -29,7 +29,6 @@ body {
 
 /*projects*/
 .projects-section {
-    min-height: 1600px;
     background-color: #6b7280;
     padding: 100px;
     display: flex;
@@ -44,7 +43,7 @@ body {
 
 .projects {
     display: grid;
-    grid-template: repeat(auto-fill, minmax(200px, 800px)) / repeat(auto-fill, minmax(200px, 800px));
+    grid-template: repeat(auto-fill, minmax(200px, auto)) / repeat(auto-fill, minmax(200px, 800px));
     gap: 90px;
 }
 
@@ -154,5 +153,44 @@ i:hover {
 
     .projects-section {
         padding: 20px;
+    }
+
+    .projects-title {
+        font-size: 25px;
+    }
+
+    .project-name {
+        font-size: 20px;
+    }
+    
+    .project-desc {
+        font-size: 10px;
+    }
+
+    i {
+        font-size: 25px;
+    }
+
+    .link {
+        height: 25px;
+    }
+
+    .phone-div,
+    .mail-div {
+        font-size: 15px;
+    }
+
+    .contactme {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .address {
+        font-size: 15px;
+    }
+
+    .phone-icon,
+    .mail-icon {
+        width: 25px;
     }
 }
